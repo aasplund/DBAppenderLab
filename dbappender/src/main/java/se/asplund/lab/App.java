@@ -10,6 +10,6 @@ public class App {
     private static Logger logger = LoggerFactory.getLogger(App.class);
 
     public static void main(String[] args) {
-        logger.info("Hello World");
+        logger.info("Hello World master");
     }
 }
