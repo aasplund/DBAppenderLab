@@ -1,1 +1,1 @@
-Labbar med att sätt upp en DBAppender med log4j.
+Labbar med att sätt loggning i db mha en DBAppender.
