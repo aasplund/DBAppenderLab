@@ -24,21 +24,21 @@ public class App implements Runnable{
     public void run() {
 
         MDC.put("pid", "193012299263");
-        MDC.put("searcherId", "Amir Majothi");
-        MDC.put("remoteHost", "140.166.83.25");
-        MDC.put("remoteIp", "138.233.253.210");
+        MDC.put("searcherId", "Anders Andersson");
+        MDC.put("remoteHost", "143.164.83.25");
+        MDC.put("remoteIp", "128.243.253.210");
         MDC.put("remotePort", "3472");
-        MDC.put("remoteUser", "amima");
-        MDC.put("forskrivarHsaId", "SE2321000131-P000000113180");
+        MDC.put("remoteUser", "andand");
+        MDC.put("forskrivarHsaId", "SE5555501234-P000000456456");
         MDC.put("josId", "Profdoc");
         MDC.put("josVersion", "1.836");
         logger.info("AuditLogInfoParameters");
         MDC.clear();
 
         MDC.put("sequenceNo", "1295879066935");
-        MDC.put("pid", "193012299263");
+        MDC.put("pid", "194512293363");
         MDC.put("authTime", "2011-02-04@13:43:13");
-        MDC.put("persNoForsk", "195012232392");
+        MDC.put("persNoForsk", "194412236692");
         MDC.put("arbetsplatskod", "1234567890123");
         MDC.put("authMethod", "urn:oasis:names:tc:SAML:2.0:ac:classes:Password");
         MDC.put("forskrivarkod", "1111129");
@@ -49,7 +49,7 @@ public class App implements Runnable{
         logger.info("TicketRequestParameters");
         MDC.clear();
 
-        MDC.put("pid", "193012299263");
+        MDC.put("pid", "195512294545");
         MDC.put("authTime", "2011-02-04@13:43:13");
         MDC.put("overallTime", "1000");
         MDC.put("ticketCreationTime", "5000");
